@@ -18,16 +18,17 @@ def startServer(port):
                     if not data:
                         break
 
-                    for i in range(0, len(data)):
-                        if (inProgress):
-                            values.append(data[i])
+                    print(data)
+                    # for i in range(0, len(data)):
+                    #     if (inProgress):
+                    #         values.append(data[i])
 
-                        if (data[i] == 128):
-                            inProgress = not inProgress
-                            if (not inProgress):
-                                print(values)
-                                inProgress = True
-                                values = []
+                    #     if (data[i] == 128):
+                    #         inProgress = not inProgress
+                    #         if (not inProgress):
+                    #             print(values)
+                    #             inProgress = True
+                    #             values = []
 
 
 
